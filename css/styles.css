@@ -370,7 +370,7 @@ img {
   margin-right: 30px;
 }
 
-.icon-logos:focus {
+.partners-link:hover,
 .partners-link:focus {
   border: 1px solid #2196f3;
   color: var(--accent-color);
