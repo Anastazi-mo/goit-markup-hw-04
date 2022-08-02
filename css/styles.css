@@ -247,12 +247,12 @@ img {
 .icon-background {
   background: var(--additional-color);
   border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-bottom: 30px;
 }
 
 /* works */
@@ -353,7 +353,7 @@ img {
   display: flex;
 }
 
-.icon-logos {
+.partners-link {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -362,9 +362,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.link-logos {
   fill: currentColor;
   color: #afb1b8;
 }
@@ -373,13 +370,9 @@ img {
   margin-right: 30px;
 }
 
-.icon-logos:hover,
 .icon-logos:focus {
+.partners-link:focus {
   border: 1px solid #2196f3;
-}
-
-.icon-logos:hover .link-logos {
-  fill: currentColor;
   color: var(--accent-color);
 }
 
